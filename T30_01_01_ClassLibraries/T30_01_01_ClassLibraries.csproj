@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\T30_01_01_ClassLibraries_01_FrameworkLibrary\T30_01_01_ClassLibraries_01_FrameworkLibrary.csproj" />
+    <ProjectReference Include="..\T30_01_01_ClassLibraries_02_CoreLibrary\T30_01_01_ClassLibraries_02_CoreLibrary.csproj" />
+    <ProjectReference Include="..\T30_01_01_ClassLibraries_03_StandardLibrary\T30_01_01_ClassLibraries_03_StandardLibrary.csproj" />
+    <ProjectReference Include="..\T30_01_01_ClassLibraries_04_Library\T30_01_01_ClassLibraries_04_Library.csproj" />
+  </ItemGroup>
+
+</Project>
