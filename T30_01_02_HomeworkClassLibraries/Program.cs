@@ -11,8 +11,8 @@ namespace T30_01_02_HomeworkClassLibraries
         {
             Calculator calculator = new();
 
-            Console.WriteLine(calculator.Add(2,2));
-            Console.WriteLine(calculator.Sub(2,2));
+            Console.WriteLine(calculator.Add(2, 2));
+            Console.WriteLine(calculator.Sub(2, 2));
         }
     }
 }
