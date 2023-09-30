@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T30_01_01_ClassLibraries_03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T30_01_01_ClassLibraries_04_Library", "T30_01_01_ClassLibraries_04_Library\T30_01_01_ClassLibraries_04_Library.csproj", "{FFD2A922-8B9C-4021-BE7B-4AC23A981F79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T30_01_02_HomeworkClassLibraries", "T30_01_02_HomeworkClassLibraries\T30_01_02_HomeworkClassLibraries.csproj", "{9979161D-1DFD-459C-9A3F-98403DBE7D9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T30_01_02_HomeworkClassLibrariesLibrary", "T30_01_02_HomeworkClassLibrariesLibrary\T30_01_02_HomeworkClassLibrariesLibrary.csproj", "{EAAC3D07-E7BD-43A8-A643-0707A0E5B559}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{FFD2A922-8B9C-4021-BE7B-4AC23A981F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFD2A922-8B9C-4021-BE7B-4AC23A981F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFD2A922-8B9C-4021-BE7B-4AC23A981F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9979161D-1DFD-459C-9A3F-98403DBE7D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9979161D-1DFD-459C-9A3F-98403DBE7D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9979161D-1DFD-459C-9A3F-98403DBE7D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9979161D-1DFD-459C-9A3F-98403DBE7D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAAC3D07-E7BD-43A8-A643-0707A0E5B559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAC3D07-E7BD-43A8-A643-0707A0E5B559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAC3D07-E7BD-43A8-A643-0707A0E5B559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAC3D07-E7BD-43A8-A643-0707A0E5B559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
