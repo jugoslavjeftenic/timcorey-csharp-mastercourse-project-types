@@ -25,9 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T31_01_02_HomeworkUnitTestL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T31_01_02_HomeworkUnitTestLibrary.Tests", "T31_01_02_HomeworkUnitTestLibrary.Tests\T31_01_02_HomeworkUnitTestLibrary.Tests.csproj", "{9DF63102-51A6-4C56-98DA-107885BCE2E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T31_02_01_HomeworkMiniProjectLibrary", "T31_02_01_HomeworkMiniProjectLibrary\T31_02_01_HomeworkMiniProjectLibrary.csproj", "{6407A096-03DE-43B0-8524-33AD6A71AB1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T31_02_01_HomeworkMiniProjectLibrary", "T31_02_01_HomeworkMiniProjectLibrary\T31_02_01_HomeworkMiniProjectLibrary.csproj", "{6407A096-03DE-43B0-8524-33AD6A71AB1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T31_02_01_HomeworkMiniProjectLibrary.Tests", "T31_02_01_HomeworkMiniProjectLibrary.Tests\T31_02_01_HomeworkMiniProjectLibrary.Tests.csproj", "{8239DB07-AB51-478F-8389-481CEE2C40EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T31_02_01_HomeworkMiniProjectLibrary.Tests", "T31_02_01_HomeworkMiniProjectLibrary.Tests\T31_02_01_HomeworkMiniProjectLibrary.Tests.csproj", "{8239DB07-AB51-478F-8389-481CEE2C40EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T31_02_02_SolutionMiniProjectLibrary", "T31_02_02_SolutionMiniProjectLibrary\T31_02_02_SolutionMiniProjectLibrary.csproj", "{454ED00D-9102-4B10-B9C5-E7F38B603944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T31_02_02_SolutionMiniProjectLibrary.Tests", "T31_02_02_SolutionMiniProjectLibrary.Tests\T31_02_02_SolutionMiniProjectLibrary.Tests.csproj", "{FEF7925D-D6B9-4922-8BD3-B810C6227194}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{8239DB07-AB51-478F-8389-481CEE2C40EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8239DB07-AB51-478F-8389-481CEE2C40EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8239DB07-AB51-478F-8389-481CEE2C40EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{454ED00D-9102-4B10-B9C5-E7F38B603944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454ED00D-9102-4B10-B9C5-E7F38B603944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454ED00D-9102-4B10-B9C5-E7F38B603944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454ED00D-9102-4B10-B9C5-E7F38B603944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF7925D-D6B9-4922-8BD3-B810C6227194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF7925D-D6B9-4922-8BD3-B810C6227194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF7925D-D6B9-4922-8BD3-B810C6227194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF7925D-D6B9-4922-8BD3-B810C6227194}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
