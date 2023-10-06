@@ -59,7 +59,6 @@
         [InlineData("Tim", 21, "Good evning Tim.")]
         [InlineData("Tim", 22, "Good evning Tim.")]
         [InlineData("Tim", 23, "Good evning Tim.")]
-
         public void GreetingShouldReturnExpectedValue(string firstName, int hourOfTheDay, string expected)
         {
             // Arrange
