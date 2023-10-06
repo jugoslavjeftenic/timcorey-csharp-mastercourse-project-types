@@ -14,7 +14,7 @@
             string expected = "Go to bed Tim.";
 
             // Act
-            string actual = messages.Greetings("Tim", 2);
+            string actual = DisplayMessages.Greetings("Tim", 2);
 
             // Assert
             Assert.Equal(expected, actual);
@@ -28,7 +28,7 @@
             string expected = "Good afternoon Tim.";
 
             // Act
-            string actual = messages.Greetings("Tim", 14);
+            string actual = DisplayMessages.Greetings("Tim", 14);
 
             // Assert
             Assert.Equal(expected, actual);
@@ -59,13 +59,14 @@
         [InlineData("Tim", 21, "Good evning Tim.")]
         [InlineData("Tim", 22, "Good evning Tim.")]
         [InlineData("Tim", 23, "Good evning Tim.")]
+
         public void GreetingShouldReturnExpectedValue(string firstName, int hourOfTheDay, string expected)
         {
             // Arrange
             DisplayMessages messages = new();
 
             // Act
-            string actual = messages.Greetings(firstName, hourOfTheDay);
+            string actual = DisplayMessages.Greetings(firstName, hourOfTheDay);
 
             // Assert
             Assert.Equal(expected, actual);
