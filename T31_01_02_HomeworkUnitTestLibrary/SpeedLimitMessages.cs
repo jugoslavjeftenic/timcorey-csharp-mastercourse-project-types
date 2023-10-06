@@ -22,6 +22,10 @@
             {
                 output = "You are traveling on the highway.";
             }
+            else
+            {
+                output = "Your speed exceeds the limit.";
+            }
 
             return output;
         }
