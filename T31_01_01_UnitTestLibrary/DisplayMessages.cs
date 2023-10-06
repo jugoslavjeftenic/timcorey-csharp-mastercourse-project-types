@@ -2,7 +2,7 @@
 {
     public class DisplayMessages
     {
-        public string Greetings(string firstName, int hourOfTheDay)
+        public static string Greetings(string firstName, int hourOfTheDay)
         {
             string retVal;
 
