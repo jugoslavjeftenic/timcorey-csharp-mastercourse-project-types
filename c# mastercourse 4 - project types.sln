@@ -29,11 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T31_02_01_HomeworkMiniProje
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T31_02_01_HomeworkMiniProjectLibrary.Tests", "T31_02_01_HomeworkMiniProjectLibrary.Tests\T31_02_01_HomeworkMiniProjectLibrary.Tests.csproj", "{8239DB07-AB51-478F-8389-481CEE2C40EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T31_02_02_SolutionMiniProjectLibrary", "T31_02_02_SolutionMiniProjectLibrary\T31_02_02_SolutionMiniProjectLibrary.csproj", "{454ED00D-9102-4B10-B9C5-E7F38B603944}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T31_02_02_SolutionMiniProjectLibrary", "T31_02_02_SolutionMiniProjectLibrary\T31_02_02_SolutionMiniProjectLibrary.csproj", "{454ED00D-9102-4B10-B9C5-E7F38B603944}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T31_02_02_SolutionMiniProjectLibrary.Tests", "T31_02_02_SolutionMiniProjectLibrary.Tests\T31_02_02_SolutionMiniProjectLibrary.Tests.csproj", "{FEF7925D-D6B9-4922-8BD3-B810C6227194}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T31_02_02_SolutionMiniProjectLibrary.Tests", "T31_02_02_SolutionMiniProjectLibrary.Tests\T31_02_02_SolutionMiniProjectLibrary.Tests.csproj", "{FEF7925D-D6B9-4922-8BD3-B810C6227194}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T32_01_01_WinForm_MessageWall", "T32_01_01_WinForm_MessageWall\T32_01_01_WinForm_MessageWall.csproj", "{E2742686-88FD-4769-B83F-34F433ABE18D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T32_01_02_HomeworkWinForm_SayHi", "T32_01_02_HomeworkWinForm_SayHi\T32_01_02_HomeworkWinForm_SayHi.csproj", "{CF935A41-A381-4E0B-9837-F467731E44C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{E2742686-88FD-4769-B83F-34F433ABE18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2742686-88FD-4769-B83F-34F433ABE18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2742686-88FD-4769-B83F-34F433ABE18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF935A41-A381-4E0B-9837-F467731E44C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF935A41-A381-4E0B-9837-F467731E44C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF935A41-A381-4E0B-9837-F467731E44C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF935A41-A381-4E0B-9837-F467731E44C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
