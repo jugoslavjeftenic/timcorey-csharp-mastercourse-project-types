@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T32_01_02_HomeworkWinForm_S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T32_02_01_HomeworkMiniProject_WinForm", "T32_02_01_HomeworkMiniProject_WinForm\T32_02_01_HomeworkMiniProject_WinForm.csproj", "{E125287E-7E13-44F9-9C27-1D1E3406B54A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T32_02_02_SolutionMiniProject_WinForm", "T32_02_02_SolutionMiniProject_WinForm\T32_02_02_SolutionMiniProject_WinForm.csproj", "{4234C385-5FA5-4DEB-AC10-B71BA467F07D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{E125287E-7E13-44F9-9C27-1D1E3406B54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E125287E-7E13-44F9-9C27-1D1E3406B54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E125287E-7E13-44F9-9C27-1D1E3406B54A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4234C385-5FA5-4DEB-AC10-B71BA467F07D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4234C385-5FA5-4DEB-AC10-B71BA467F07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4234C385-5FA5-4DEB-AC10-B71BA467F07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4234C385-5FA5-4DEB-AC10-B71BA467F07D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
