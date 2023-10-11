@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T32_02_01_HomeworkMiniProje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T32_02_02_SolutionMiniProject_WinForm", "T32_02_02_SolutionMiniProject_WinForm\T32_02_02_SolutionMiniProject_WinForm.csproj", "{4234C385-5FA5-4DEB-AC10-B71BA467F07D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T33_01_01_WPF_MessageWall", "T33_01_01_WPF_MessageWall\T33_01_01_WPF_MessageWall.csproj", "{F60DDF1D-5734-43AB-99A5-ECF7D67C810F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T33_01_02_WPF_NetFrameworkDemoUI", "T33_01_02_WPF_NetFrameworkDemoUI\T33_01_02_WPF_NetFrameworkDemoUI.csproj", "{B4DD075D-74C4-4CC1-B9E7-2AFF82FB8B97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{4234C385-5FA5-4DEB-AC10-B71BA467F07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4234C385-5FA5-4DEB-AC10-B71BA467F07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4234C385-5FA5-4DEB-AC10-B71BA467F07D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60DDF1D-5734-43AB-99A5-ECF7D67C810F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60DDF1D-5734-43AB-99A5-ECF7D67C810F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60DDF1D-5734-43AB-99A5-ECF7D67C810F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60DDF1D-5734-43AB-99A5-ECF7D67C810F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4DD075D-74C4-4CC1-B9E7-2AFF82FB8B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4DD075D-74C4-4CC1-B9E7-2AFF82FB8B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4DD075D-74C4-4CC1-B9E7-2AFF82FB8B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4DD075D-74C4-4CC1-B9E7-2AFF82FB8B97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
