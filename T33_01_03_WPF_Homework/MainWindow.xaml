@@ -1,0 +1,39 @@
+﻿<Window x:Class="T33_01_03_WPF_Homework.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:T33_01_03_WPF_Homework"
+        mc:Ignorable="d" FontSize="18"
+        Title="Say Hi Application" Height="250" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Column="1" Grid.Row="0" Orientation="Horizontal" Margin="0 20 0 10">
+            <TextBlock Margin="0 0 5 0">First Name</TextBlock>
+            <TextBox x:Name="firstNameTextBox" Width="300"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal">
+            <TextBlock Margin="0 0 5 0">Last Name</TextBlock>
+            <TextBox x:Name="lastNameTextBox" Width="300"/>
+        </StackPanel>
+
+        <Button x:Name="sayHiButton" Grid.Column="1" Grid.Row="2" Margin="0 10" Padding="0 5"
+                Click="SayHiButton_Click">Say Hi</Button>
+
+        <TextBlock x:Name="sayHiLabel" Grid.Column="1" Grid.Row="3"
+                   Margin="0 20 0 0" TextAlignment="Center"></TextBlock>
+    </Grid>
+</Window>

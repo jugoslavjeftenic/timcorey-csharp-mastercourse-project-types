@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T33_01_01_WPF_MessageWall",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T33_01_02_WPF_NetFrameworkDemoUI", "T33_01_02_WPF_NetFrameworkDemoUI\T33_01_02_WPF_NetFrameworkDemoUI.csproj", "{B4DD075D-74C4-4CC1-B9E7-2AFF82FB8B97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T33_01_03_WPF_Homework", "T33_01_03_WPF_Homework\T33_01_03_WPF_Homework.csproj", "{B1FAA02F-CB67-439E-B6FC-64F9748AA798}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{B4DD075D-74C4-4CC1-B9E7-2AFF82FB8B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4DD075D-74C4-4CC1-B9E7-2AFF82FB8B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4DD075D-74C4-4CC1-B9E7-2AFF82FB8B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FAA02F-CB67-439E-B6FC-64F9748AA798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FAA02F-CB67-439E-B6FC-64F9748AA798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FAA02F-CB67-439E-B6FC-64F9748AA798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FAA02F-CB67-439E-B6FC-64F9748AA798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
