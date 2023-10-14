@@ -1,0 +1,47 @@
+﻿<Window x:Class="T33_02_01_WPF_MiniProjectHomework.AddressInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:T33_02_01_WPF_MiniProjectHomework"
+        mc:Ignorable="d" FontSize="20"
+        Title="Address Info" Height="300" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Column="1" Grid.Row="0" Orientation="Horizontal" Margin="0 20 0 5" HorizontalAlignment="Right">
+            <TextBlock Margin="0 0 5 0">Street Address</TextBlock>
+            <TextBox x:Name="streetAddressTextBox" Width="300"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal" Margin="0 5" HorizontalAlignment="Right">
+            <TextBlock Margin="0 0 5 0">City</TextBlock>
+            <TextBox x:Name="cityTextBox" Width="300"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="2" Orientation="Horizontal" Margin="0 5" HorizontalAlignment="Right">
+            <TextBlock Margin="0 0 5 0">State</TextBlock>
+            <TextBox x:Name="stateTextBox" Width="300"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="3" Orientation="Horizontal" Margin="0 5" HorizontalAlignment="Right">
+            <TextBlock Margin="0 0 5 0">Zip Code</TextBlock>
+            <TextBox x:Name="zipCodeTextBox" Width="300"/>
+        </StackPanel>
+
+        <Button x:Name="saveAddressButton" Grid.Column="1" Grid.Row="4" Margin="0 10" Padding="0 5"
+                Click="SaveAddressButton_Click">Save Address</Button>
+    </Grid>
+</Window>
