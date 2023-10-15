@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T33_01_03_WPF_Homework", "T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T33_02_01_WPF_MiniProjectHomework", "T33_02_01_WPF_MiniProjectHomework\T33_02_01_WPF_MiniProjectHomework.csproj", "{2C51A896-0930-4BCE-9609-C4A5B1EFB0C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T33_02_02_WPF_MiniProjectSolution", "T33_02_02_WPF_MiniProjectSolution\T33_02_02_WPF_MiniProjectSolution.csproj", "{DF752CA4-3172-42CB-98C7-2F29C32CD59B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T33_02_02_WPF_MiniProjectSolution", "T33_02_02_WPF_MiniProjectSolution\T33_02_02_WPF_MiniProjectSolution.csproj", "{DF752CA4-3172-42CB-98C7-2F29C32CD59B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T34_01_01_RazorPages_MessageWall", "T34_01_01_RazorPages_MessageWall\T34_01_01_RazorPages_MessageWall.csproj", "{B4BCF34F-26F6-4CEA-9374-87A2EF23359B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{DF752CA4-3172-42CB-98C7-2F29C32CD59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF752CA4-3172-42CB-98C7-2F29C32CD59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF752CA4-3172-42CB-98C7-2F29C32CD59B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BCF34F-26F6-4CEA-9374-87A2EF23359B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BCF34F-26F6-4CEA-9374-87A2EF23359B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BCF34F-26F6-4CEA-9374-87A2EF23359B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BCF34F-26F6-4CEA-9374-87A2EF23359B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
