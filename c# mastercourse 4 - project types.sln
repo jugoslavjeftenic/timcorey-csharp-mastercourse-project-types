@@ -57,6 +57,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T34_01_02_RazorPages_Homewo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T34_02_01_RazorPages_MiniProjectHomework", "T34_02_01_RazorPages_MiniProjectHomework\T34_02_01_RazorPages_MiniProjectHomework.csproj", "{F629DA92-703F-45E8-AA38-262F562887E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T34_02_02_RazorPages_MiniProjectSolution", "T34_02_02_RazorPages_MiniProjectSolution\T34_02_02_RazorPages_MiniProjectSolution.csproj", "{4C2D9DCC-B00A-4B7A-BDE3-27B71D6E2F6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{F629DA92-703F-45E8-AA38-262F562887E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F629DA92-703F-45E8-AA38-262F562887E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F629DA92-703F-45E8-AA38-262F562887E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2D9DCC-B00A-4B7A-BDE3-27B71D6E2F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2D9DCC-B00A-4B7A-BDE3-27B71D6E2F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2D9DCC-B00A-4B7A-BDE3-27B71D6E2F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2D9DCC-B00A-4B7A-BDE3-27B71D6E2F6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
