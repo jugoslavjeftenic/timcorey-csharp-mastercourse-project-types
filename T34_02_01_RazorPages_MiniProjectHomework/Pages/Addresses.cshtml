@@ -1,0 +1,65 @@
+﻿@page
+@model T34_02_01_RazorPages_MiniProjectHomework.Pages.AddressesModel
+@{
+	ViewData["Title"] = "Addresses Info";
+}
+
+<form method="post">
+	<div class="form-group">
+		@for (int i = 0; i < Model.Addresses.Count; i++)
+		{
+			<input type="hidden" asp-for="Addresses[i].StreetAddress" />
+			<input type="hidden" asp-for="Addresses[i].City" />
+			<input type="hidden" asp-for="Addresses[i].State" />
+			<input type="hidden" asp-for="Addresses[i].ZipCode" />
+		}
+		<div>
+			<table>
+				<tr>
+					<th><label asp-for="BindedStreetAddress">Street Address</label></th>
+					<td><input asp-for="BindedStreetAddress" type="text" placeholder="Enter Street Address" /></td>
+				</tr>
+				<tr>
+					<th><label asp-for="BindedCity">City</label></th>
+					<td><input asp-for="BindedCity" type="text" placeholder="Enter City" /></td>
+				</tr>
+				<tr>
+					<th><label asp-for="BindedState">State</label></th>
+					<td><input asp-for="BindedState" type="text" placeholder="Enter State" /></td>
+				</tr>
+				<tr>
+					<th><label asp-for="BindedZipCode">Zip Code</label></th>
+					<td><input asp-for="BindedZipCode" type="text" placeholder="Enter ZipCode" /></td>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</div>
+	</div>
+</form>
+
+<div>
+	<table>
+		<thead>
+			<tr>
+				<th>Streeet Address </th>
+				<th>City </th>
+				<th>State </th>
+				<th>Zip Code</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model.Addresses)
+			{
+				<tr>
+					<td>@item.StreetAddress</td>
+					<td>@item.City</td>
+					<td>@item.State</td>
+					<td>@item.ZipCode</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>
+

@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+@{
+	ViewData["Title"] = "Person Info";
+}
+
+<form method="post">
+	<div>
+		<label asp-for="FirstName">First Name</label>
+		<input asp-for="FirstName" type="text" placeholder="Enter First Name" />
+	</div>
+	<div>
+		<label asp-for="LastName">Last Name</label>
+		<input asp-for="LastName" type="text" placeholder="Enter Last Name" />
+	</div>
+	<div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</div>
+</form>
+
+<div>
+	@Model.FirstName @Model.LastName
+</div>
