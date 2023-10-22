@@ -61,7 +61,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T34_02_02_RazorPages_MiniPr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T35_01_01_MVC_MessageWall", "T35_01_01_MVC_MessageWall\T35_01_01_MVC_MessageWall.csproj", "{4DE42538-8BFA-4A52-AB2D-317C892AB115}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T35_02_02_MiniProjectSolution", "T35_02_02_MiniProjectSolution\T35_02_02_MiniProjectSolution.csproj", "{7429A8D3-3430-4820-B693-63672F56837B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T35_02_02_MiniProjectSolution", "T35_02_02_MiniProjectSolution\T35_02_02_MiniProjectSolution.csproj", "{7429A8D3-3430-4820-B693-63672F56837B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T36_01_01_API_MessageWall", "T36_01_01_API_MessageWall\T36_01_01_API_MessageWall.csproj", "{0C6552AD-638B-45E6-A1AF-A7645720FF57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +191,10 @@ Global
 		{7429A8D3-3430-4820-B693-63672F56837B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7429A8D3-3430-4820-B693-63672F56837B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7429A8D3-3430-4820-B693-63672F56837B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6552AD-638B-45E6-A1AF-A7645720FF57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6552AD-638B-45E6-A1AF-A7645720FF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6552AD-638B-45E6-A1AF-A7645720FF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6552AD-638B-45E6-A1AF-A7645720FF57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
